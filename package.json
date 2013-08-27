@@ -1,0 +1,25 @@
+{
+  "engines": {
+    "node": ">= 0.10"
+  },
+  "name": "mime-headers",
+  "version": "0.0.1",
+  "description": "Build an object of MIME conformant headers and output as string",
+  "main": "lib/mime-headers.js",
+  "scripts": {
+    "test": "node_modules/tape/bin/tape test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/connrs/node-mime-headers.git"
+  },
+  "keywords": [
+    "mime",
+    "email"
+  ],
+  "author": "connrs",
+  "license": "Apache 2.0",
+  "devDependencies": {
+    "tape": "~1.0.4"
+  }
+}
